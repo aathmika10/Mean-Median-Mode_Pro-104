@@ -8,7 +8,7 @@ data.pop(0)
 
 newData=[]
 for i in range(len(data)):
-    number=data[i][1]
+    number=data[i][2]
     newData.append(float(number))
 
 count=Counter(newData)
